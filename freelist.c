@@ -24,6 +24,7 @@
 #define INT_ACCESS_ONCE(var)	((int)(*((volatile int *)&(var))))
 const char *REPLACEMENT_STRAT; //FIFO: This is a variable to store the env variable value.
 int F_HEAD; //FIFO: This variable points to the head/start of the FIFO queue.
+int dummydummy;
 typedef struct
 {
 	/* Spinlock: protects the values below */
