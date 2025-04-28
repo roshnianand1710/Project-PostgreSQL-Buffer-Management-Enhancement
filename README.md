@@ -1,2 +1,3 @@
 # Project-PostgreSQL-Buffer-Management-Enhancement
-This Project was a part of a course called "Advanced Data Stores" at USC.
+
+Implemented FIFO Buffer Replacement Strategy alongside Postgres's default buffer replacement algorithm called clocksweep.
